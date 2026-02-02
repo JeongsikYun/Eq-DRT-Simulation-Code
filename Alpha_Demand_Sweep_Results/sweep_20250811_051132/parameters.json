@@ -1,0 +1,18 @@
+{
+    "sim_time": 120,
+    "base_calls_per_min": 1.0,
+    "num_vehicles": 10,
+    "vehicle_capacity": 10,
+    "num_seeds": 50,
+    "ideal_mode": 2,
+    "start_alpha": 0.0,
+    "end_alpha": 1.0,
+    "step_alpha": 0.1,
+    "start_demand": 0.5,
+    "end_demand": 1.5,
+    "step_demand": 0.25,
+    "service_time": 0.25,
+    "vehicle_speed": 0.5,
+    "reopt_interval": 1,
+    "tail_pct": 0.3
+}
