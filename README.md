@@ -13,7 +13,9 @@ This study proposes an **Equity-aware DRT (Eq-DRT)** routing framework that mini
 ### Objective Function
 The core objective function used throughout the simulation and analysis is:
 
-$$\text{OFV} = (1 - \alpha) \times \text{Mean\_Delay} + \alpha \times \text{Tail\_Delay (CVaR}_{30\%})$$
+$$
+\mathrm{OFV} = (1-\alpha)\,\mathrm{Mean\_Delay} + \alpha\,\mathrm{Tail\_Delay}\,(\mathrm{CVaR}_{30\%})
+$$
 
 * **$\alpha = 0.0$**: Mean delay only (Efficiency-focused).
 * **$\alpha = 1.0$**: Tail delay only (Equity/Risk-focused).
